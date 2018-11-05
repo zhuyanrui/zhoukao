@@ -5,3 +5,60 @@
     height: 100%;
     overflow: hidden;
 }
+
+.wrap p {
+    width: 100%;
+    margin: pxTorem(30px) pxTorem(15px);
+    position: relative;
+    input {
+        width: pxTorem(200px);
+        height: pxTorem(33px);
+        border: 1px solid #999;
+        padding-left: pxTorem(8px);
+        @include sizing;
+        border-top-left-radius: pxTorem(5px);
+        border-bottom-left-radius: pxTorem(5px);
+    }
+    span {
+        display: inline-block;
+        width: pxTorem(80px);
+        height: pxTorem(32px);
+        border-top-right-radius: pxTorem(5px);
+        border-bottom-right-radius: pxTorem(5px);
+        border: 1px solid #999;
+        position: absolute;
+        left: pxTorem(200px);
+        text-align: center;
+        line-height: pxTorem(30px);
+        // top: pxTorem(20px);
+    }
+}
+
+.one span {
+    background: #ececec;
+}
+
+.two span {
+    background: #215f9c;
+    color: #fff;
+}
+
+.three span {
+    background: #8ea346;
+    color: #fff;
+}
+
+.four span {
+    background: #a61656;
+    color: #fff;
+}
+
+.five span {
+    background: #f06418;
+    color: #fff;
+}
+
+.six span {
+    background: #383838;
+    color: #fff;
+}
