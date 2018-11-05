@@ -1,0 +1,20 @@
+{
+  "name": "zhoukao",
+  "version": "1.0.0",
+  "description": "zhoukao",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuyanrui/zhoukao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuyanrui/zhoukao/issues"
+  },
+  "homepage": "https://github.com/zhuyanrui/zhoukao#readme"
+}
