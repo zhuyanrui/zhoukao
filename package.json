@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/zhuyanrui/zhoukao/issues"
   },
-  "homepage": "https://github.com/zhuyanrui/zhoukao#readme"
+  "homepage": "https://github.com/zhuyanrui/zhoukao#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-uglify": "^3.0.1"
+  }
 }
